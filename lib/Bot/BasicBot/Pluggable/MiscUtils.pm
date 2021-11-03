@@ -34,6 +34,8 @@ sub massblocker {
 package Bot::BasicBot::Pluggable::MiscUtils::_mass_blocker;
 use strict;
 use warnings;
+local *util_strip_codes = \&Bot::BasicBot::Pluggable::MiscUtils::util_strip_codes;
+use List::Util qw(min max);
 
 sub check {
     my $self = shift;
