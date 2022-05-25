@@ -1,4 +1,5 @@
 package Bot::BasicBot::Pluggable::MiscUtils;
+# ABSTRACT: Some misc util routines for the B::BB::P Irssi module
 use strict;
 use warnings;
 
